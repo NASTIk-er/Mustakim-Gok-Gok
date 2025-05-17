@@ -1,4 +1,5 @@
-const axios = require(const fs = require('fs');
+const axios = require('axios');
+const fs = require('fs');
 const path = require('path');
 
 module.exports = {
@@ -15,15 +16,15 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: '—͟͟͞͞𝚃𝙰𝙽𝚅𝙸𝚁 𝙰𝙷𝙼𝙴𝙳',
-      gender: '𝗠𝗔𝗟𝗘',
+      name: '𝐓𝐀𝐍𝐕𝐈𝐑 𝐀𝐇𝐌𝐄𝐃 🍒',
+      gender: '𝐌𝐀𝐋𝐄',
       age: '19+',
       height: '5.6',
-      choise: '🦆💨',
-      nick: 'DIPTO '
+      choise: '𝐍𝐓𝐆',
+      nick: '𝐃𝐈𝐏𝐓𝐎 🏴‍☠️'
     };
 
-    const bold = 'https://i.imgur.com/swsvKV0.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = 'https://i.imgur.com/Oc7CRuu.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
@@ -37,7 +38,7 @@ config: {
     fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
     const response = ` 
-╭[  TANVIR AHMED  ]  ─⦿
+╭[ .  ]•𝐓𝐀𝐍𝐕𝐈𝐑 𝐁𝐎𝐓•]  ─⦿
 ╭────────────◊
 ├‣ 𝐁𝐨𝐭 & 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 
 ├‣ 𝐍𝐚𝐦𝐞: ${ownerInfo.name}
