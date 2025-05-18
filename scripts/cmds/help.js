@@ -65,11 +65,11 @@ module.exports = {
       msg += `🎀 | 𝚃𝙰𝙽𝚅𝙸𝚁`; // its not decoy so change it if you want 
  
       const helpListImages = [
-        "https://i.ibb.co/6mYZLhN/image.jpg", // add image link here
-        "https://i.ibb.co/qNNtQ7n/image.jpg",
-        "https://i.ibb.co/ZKYCpcV/image.jpg",
-        "https://i.ibb.co/0BXSbMN/image.jpg",
-        "https://i.ibb.co/g36mkXJ/image.jpg",
+        "https://i.ibb.co/M52YWV3Z/image.jpg", // add image link here
+        "",
+        "",
+        "",
+        "",
         // Add more image links as needed
       ];
  
