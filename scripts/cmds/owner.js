@@ -24,7 +24,7 @@ config: {
       nick: '𝐃𝐈𝐏𝐓𝐎 🏴‍☠️'
     };
 
-    const bold = 'https://i.imgur.com/Oc7CRuu.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = 'https://files.catbox.moe/o10gpe.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
