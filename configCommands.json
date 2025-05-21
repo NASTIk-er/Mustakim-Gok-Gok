@@ -29,7 +29,8 @@
     },
     "dhbc": {
       "reward": 1000
-    }
+    },
+    "info": {}
   },
   "envEvents": {
     "logsbot": {
