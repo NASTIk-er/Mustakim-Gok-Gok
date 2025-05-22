@@ -4,7 +4,7 @@ module.exports = {
     version: "1.0",
     author: "Shikaki",
     countDown: 60,
-    role: 0,
+    role: 2,
     shortDescription: "Get user information and avatar",
     longDescription: "Get user information and avatar by mentioning",
     category: "image",
@@ -45,17 +45,17 @@ module.exports = {
       let genderText;
       switch (userInfo[uid].gender) {
         case 1:
-          genderText = "Girl";
+          genderText = "𝗚𝗶𝗿𝗹";
           break;
         case 2:
-          genderText = "Boy";
+          genderText = "𝗕𝗼𝘆";
           break;
         default:
-          genderText = "Unknown";
+          genderText = "𝗨𝗻𝗸𝗻𝗼𝘄𝗻";
       }
 
       // Construct and send the user's information with avatar
-      const userInformation = `❏ Name: ${userInfo[uid].name}\n❏ Profile URL: ${userInfo[uid].profileUrl}\n❏ Gender: ${genderText}\n❏ User Type: ${userInfo[uid].type}\n❏ Is Friend: ${userInfo[uid].isFriend ? "Yes" : "No"}\n❏ Is Birthday today: ${userInfo[uid].isBirthday ? "Yes" : "No"}`;
+      const userInformation = `━━━━━━━━━━━━━━━\n\n🎀𝙽𝙰𝙼𝙴 : ${userInfo[uid].name}\n😍 𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝚄𝚁𝙻 : ${userInfo[uid].profileUrl}\n👪 𝙶𝙴𝙽𝙳𝙴𝚁 : ${genderText}\n💀 𝚄𝚂𝙴𝚁 𝚃𝚈𝙿𝙴 : ${userInfo[uid].type}\n🫱🏻‍🫲🏼 𝙸𝚂 𝙵𝚁𝙸𝙴𝙽𝙳 : ${userInfo[uid].isFriend ? "𝚈𝚎𝚜" : "𝙽𝚘"}\n🥳 𝙸𝚂 𝙱.𝙳 𝚃𝙾𝙳𝙰𝚈 : ${userInfo[uid].isBirthday ? "𝚈𝚎𝚜" : "𝙽𝚘"}\n\n━━━━━━━━━━━━━━━`;
 
       message.reply({
         body: userInformation,
